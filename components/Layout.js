@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { getUsername } from '../lib/userAuth'
-import { getUserId } from '../lib/userAuth'
 
 const Layout = ({ children }) => {
   const [ username, setUsername ] = useState('')

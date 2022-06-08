@@ -3,7 +3,6 @@ import Layout from '../../components/Layout'
 import ScoreCard from '../../components/ScoreCard'
 import useGolferName from '../../lib/useGolferName'
 import useGolferScores from '../../lib/useGolferScores'
-import ScorePostWidget from '../../components/ScorePostWidget'
 
 const GolferScores = () => {
   const router = useRouter()
